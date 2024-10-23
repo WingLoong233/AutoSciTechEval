@@ -1,0 +1,75 @@
+datasets/*
+!datasets/*.py
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 日志文件
+*.log
+*.csv
+
+# 数据库
+*.sqlite3
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 包文件
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# 单元测试 / 覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# 环境文件
+.env
+
+# mypy
+.mypy_cache/
+
+# Rope项目设置
+.ropeproject
+
+# mkdocs文档
+/site
+
+# 其他
+*.bak
+*.swp
+*.swo
