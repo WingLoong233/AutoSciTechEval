@@ -1,5 +1,5 @@
 # 自动科技评价学 Auto Science and Technology Evaluation
-> 先做个小例子
+> 目前只有一个小例子
 
 # 路径
 

@@ -6,14 +6,28 @@
 2. Github的Dependency Graph提供dependencies和dependents；
 3. 分析README和description（使用正则表达式/nlp工具/大模型/Embedding）；
 4. 代码中的copyright(R)；
-5. 函数调用频率；<!--（使用AST？）-->
+5. 函数调用频率；（使用AST？）
+
+---
+
+fork 关系：应该删除所有同名仓库
 
 ---
 
 按照topics构建
 
-> 1. 获取topic"image-generation"下的所有仓库
-> 2. 
+> 1. 获取topic"image-generation"下的所有仓库（先筛选所有stars>2000的）
+> 2. 获取这些仓库所有的fork关系（包括fork和被fork）
+> 3. 获取这些仓库所有的submodule关系（包括使用submodule和被作为submodule使用）
+> 4. 获取这些仓库所有的README文件
+
+[Dependency graph supported package ecosystems - GitHub Docs](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/dependency-graph-supported-package-ecosystems#supported-package-ecosystems)
+
+[REST API endpoints for software bill of materials (SBOM) - GitHub Docs](https://docs.github.com/en/rest/dependency-graph/sboms?apiVersion=2022-11-28#export-a-software-bill-of-materials-sbom-for-a-repository)
+
+[About CodeQL — CodeQL](https://codeql.github.com/docs/codeql-overview/about-codeql/)
+
+[N/A 自动化依赖管理工具 -  Dependabot supported ecosystems and repositories - GitHub Docs](https://docs.github.com/en/code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories)
 
 ---
 
